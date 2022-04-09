@@ -22,3 +22,6 @@ How to Run?
  run server
 
     ./create.sh stackname server.yaml servers-infra-params.json
+    
+ The URL:
+    serve-WebAp-15PGN1PDOHZ97-1218280686.us-east-1.elb.amazonaws.com
