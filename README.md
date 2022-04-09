@@ -16,10 +16,9 @@ Features
 
 How to Run?
 
-    run infrastructure
+ run infrastructure
 
- ./create.sh stackname network-infra.yaml network-infra-params.json
+    ./create.sh stackname network-infra.yaml network-infra-params.json
+ run server
 
-    run server
-
-./create.sh stackname server.yaml servers-infra-params.json
+    ./create.sh stackname server.yaml servers-infra-params.json
