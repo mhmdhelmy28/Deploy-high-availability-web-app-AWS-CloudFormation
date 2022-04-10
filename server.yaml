@@ -120,7 +120,6 @@ Resources:
           
       IamInstanceProfile: !Ref EC2InstanceProfile
       ImageId: ami-000722651477bd39b
-      #KeyName: privserver
       SecurityGroups:
       - !Ref WebServerSecGroup
       InstanceType: t3.medium
@@ -181,7 +180,7 @@ Resources:
       - Type: forward
         TargetGroupArn: !Ref WebAppTargetGroup
       LoadBalancerArn: !Ref WebAppLB
-      Port: '80'
+      Port: 80
       Protocol: HTTP
 Outputs:
   WebAppLB:
