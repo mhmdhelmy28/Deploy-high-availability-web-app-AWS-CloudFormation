@@ -1,0 +1,2 @@
+- You need to use port 80 for the security groups, listeners and load balancers:
+    I've already configured them on port 80, the security group you are referring to is for the jump host so why should configure it on port 80 ?
